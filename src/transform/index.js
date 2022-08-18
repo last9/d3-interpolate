@@ -61,3 +61,4 @@ function interpolateTransform(parse, pxComma, pxParen, degParen) {
 
 export var interpolateTransformCss = interpolateTransform(parseCss, "px, ", "px)", "deg)");
 export var interpolateTransformSvg = interpolateTransform(parseSvg, ", ", ")", ")");
+export { parseCss, parseSvg } from './parse';

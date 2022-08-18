@@ -19,3 +19,4 @@ export {default as interpolateHcl, hclLong as interpolateHclLong} from "./hcl.js
 export {default as interpolateCubehelix, cubehelixLong as interpolateCubehelixLong} from "./cubehelix.js";
 export {default as piecewise} from "./piecewise.js";
 export {default as quantize} from "./quantize.js";
+export {parseSvg} from './transform/parse.js';
